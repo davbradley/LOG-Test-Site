@@ -84,6 +84,10 @@
 
 @media only screen and (max-width: 1024px) {
 	
+	.bg-pump {
+	background:#FFFFFF;
+	}
+	
 	#root-container {
 		padding: 0 20px;
 	}
@@ -305,6 +309,10 @@
 		font-size: 13px;
 	}
 	
+	.bg-pump {
+	background:#FFFFFF;
+	}
+	
 	#content-container blockquote.left, 
 	#content-container blockquote.right {
 		width: 40%;
@@ -403,6 +411,10 @@
 	
 	.image-element {
 	    margin-bottom: 15px;
+	}
+	
+	.bg-pump {
+	background:#FFFFFF !important;
 	}
 	
 	#content-wrapper, 
