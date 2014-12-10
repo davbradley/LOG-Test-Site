@@ -1,12 +1,12 @@
-﻿<?php
+<?php
 	
 	$name = trim($_POST['name']);
 	$email = $_POST['email'];
 	$subject = $_POST['subject'];
 	$message = $_POST['message'];
 	
-	$site_owners_email = 'your@mail.com'; // Replace this with your own email address
-	$site_owners_name = 'uxbarn'; // Replace with your name
+	$site_owners_email = 'david@patternsinthecloud.com'; // Replace this with your own email address
+	$site_owners_name = 'Lockhart Oil and Gas'; // Replace with your name
 		
 	try {
 		require_once('PHPMailer/class.phpmailer.php');
@@ -15,7 +15,7 @@
 		
 		$mail->From = $email;
 		$mail->FromName = $name;
-		$mail->Subject = "[Thine] ".$subject;
+		$mail->Subject = "[Lockhart OG] ".$subject;
 		$mail->AddAddress($site_owners_email, $site_owners_name);
 		$mail->Body = $message;
 		

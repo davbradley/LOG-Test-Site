@@ -616,7 +616,7 @@
 	.section-container.vertical-tabs > section.active > .title, 
 	.section-container.vertical-tabs > .section.active > .title {
 		border-left: 0;
-		border-top: 1px solid #56803d !important;
+		border-top: 1px solid #074a07 !important;
 		width: 100%;
 	}
 	
