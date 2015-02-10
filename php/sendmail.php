@@ -5,7 +5,7 @@
 	$subject = $_POST['subject'];
 	$message = $_POST['message'];
 	
-	$site_owners_email = 'david@patternsinthecloud.com'; // Replace this with your own email address
+	$site_owners_email = 'info@lockhartog.com'; // Replace this with your own email address
 	$site_owners_name = 'Lockhart Oil and Gas'; // Replace with your name
 		
 	try {

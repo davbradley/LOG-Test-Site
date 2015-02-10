@@ -3808,3 +3808,13 @@ input[type=number] {
 .bg-pump {
 	background: #FFF url("/images/bg-pumpjack-lightgray-560.gif") no-repeat left bottom;
 }
+.article-table th {
+	color:#333333;
+	text-transform:uppercase;
+}
+
+.article-table {
+	text-align: center;
+	margin:20px 0 10px 0;
+	background-color:#FFFFFF;
+}
