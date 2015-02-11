@@ -3818,3 +3818,8 @@ input[type=number] {
 	margin:20px 0 10px 0;
 	background-color:#FFFFFF;
 }
+
+.max-185 {
+	max-height:185px !important;
+	overflow:hidden;
+}
