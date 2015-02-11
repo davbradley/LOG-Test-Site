@@ -3823,3 +3823,16 @@ input[type=number] {
 	max-height:185px !important;
 	overflow:hidden;
 }
+
+.top-20 {
+	padding-top:20px;
+}
+
+.top-40 {
+	padding-top:40px;
+}
+
+.small-light {
+	font-size: 80%;
+	font-weight:400;
+}
