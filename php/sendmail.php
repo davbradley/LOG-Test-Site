@@ -19,14 +19,14 @@
 		$mail->AddAddress($site_owners_email, $site_owners_name);
 		$mail->Body = $message;
 		
-		$mail->Mailer = "smtp";
-		$mail->Host = "smtp.yoursite.com"; // Replace with your SMTP server address
+		//$mail->Mailer = "smtp";
+		//$mail->Host = "smtp.yoursite.com"; // Replace with your SMTP server address
 		//$mail->Port = 587;
 		//$mail->SMTPSecure = "tls"; 
 		
-		$mail->SMTPAuth = true; // Turn on SMTP authentication
-		$mail->Username = "user@smtp.com"; // SMTP username
-		$mail->Password = "yourpassword"; // SMTP password
+		//$mail->SMTPAuth = true; // Turn on SMTP authentication
+		//$mail->Username = "user@smtp.com"; // SMTP username
+		//$mail->Password = "yourpassword"; // SMTP password
 		
 		//echo "true";
 		if($mail->Send()) {
